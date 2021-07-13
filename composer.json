@@ -1,0 +1,33 @@
+{
+    "name": "bfg/text",
+    "description": "",
+    "type": "bfg-app",
+    "keywords": ["laravel", "extension", "text"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bfg"
+        }
+    ],
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.0.0",
+        "bfg/installer": "*"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Bfg\\Text\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bfg\\Text\\ServiceProvider"
+            ]
+        }
+    }
+}
