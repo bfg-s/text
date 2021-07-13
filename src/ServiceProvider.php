@@ -11,12 +11,6 @@ use Bfg\Installer\Providers\InstalledProvider;
 class ServiceProvider extends InstalledProvider
 {
     /**
-     * The name of extension.
-     * @var string|null
-     */
-    public ?string $name = "bfg/text";
-
-    /**
      * The description of extension.
      * @var string|null
      */
@@ -26,7 +20,7 @@ class ServiceProvider extends InstalledProvider
      * Set as installed by default.
      * @var bool
      */
-    public bool $installed = false;
+    public bool $installed = true;
 
     /**
      * Executed when the provider is registered
