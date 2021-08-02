@@ -11,12 +11,6 @@ use Bfg\Installer\Providers\InstalledProvider;
 class ServiceProvider extends InstalledProvider
 {
     /**
-     * The description of extension.
-     * @var string|null
-     */
-    public ?string $description = "All sorts of chips to work with the text";
-
-    /**
      * Set as installed by default.
      * @var bool
      */

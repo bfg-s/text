@@ -1,0 +1,1 @@
+<?phpnamespace Bfg\Text\Test;class RolesTest extends TestCase{    public function testIsJson()    {        $this->assertTrue(            is_json(json_encode(['test' => 1]))        );    }}
