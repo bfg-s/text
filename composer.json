@@ -1,6 +1,7 @@
 {
     "name": "bfg/text",
     "description": "All sorts of chips to work with the text",
+    "minimum-stability": "dev",
     "type": "bfg-app",
     "keywords": ["laravel", "extension", "text"],
     "license": "MIT",

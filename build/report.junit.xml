@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.155099">
+    <testsuite name="Spatie Test Suite" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.155099">
+      <testsuite name="Bfg\Text\Test\HelpersTest" file="/Users/xsaven/PhpstormProjects/bfg_developer/vendor/bfg/text/tests/HelpersTest.php" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.155099">
+        <testcase name="testIsJson" class="Bfg\Text\Test\HelpersTest" classname="Bfg.Text.Test.HelpersTest" file="/Users/xsaven/PhpstormProjects/bfg_developer/vendor/bfg/text/tests/HelpersTest.php" line="7" assertions="1" time="0.110674"/>
+        <testcase name="testLangInText" class="Bfg\Text\Test\HelpersTest" classname="Bfg.Text.Test.HelpersTest" file="/Users/xsaven/PhpstormProjects/bfg_developer/vendor/bfg/text/tests/HelpersTest.php" line="13" assertions="1" time="0.011514"/>
+        <testcase name="testTagReplace" class="Bfg\Text\Test\HelpersTest" classname="Bfg.Text.Test.HelpersTest" file="/Users/xsaven/PhpstormProjects/bfg_developer/vendor/bfg/text/tests/HelpersTest.php" line="19" assertions="1" time="0.010855"/>
+        <testcase name="testFileLinesGetContents" class="Bfg\Text\Test\HelpersTest" classname="Bfg.Text.Test.HelpersTest" file="/Users/xsaven/PhpstormProjects/bfg_developer/vendor/bfg/text/tests/HelpersTest.php" line="28" assertions="1" time="0.011074"/>
+        <testcase name="testPhp" class="Bfg\Text\Test\HelpersTest" classname="Bfg.Text.Test.HelpersTest" file="/Users/xsaven/PhpstormProjects/bfg_developer/vendor/bfg/text/tests/HelpersTest.php" line="85" assertions="1" time="0.010982"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

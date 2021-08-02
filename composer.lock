@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5bd392c99cd9f828866d4c7b06b7d199",
+    "content-hash": "72697a4207d7403c536f0121b59e17a9",
     "packages": [
         {
             "name": "bfg/entity",
@@ -7743,7 +7743,7 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
