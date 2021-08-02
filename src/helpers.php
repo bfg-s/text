@@ -3,6 +3,8 @@
 if (!function_exists("is_json")) {
 
     /**
+     * Checks whether the row is Json object.
+     *
      * @param $string
      * @param bool $return_data
      * @return bool|mixed
@@ -23,6 +25,8 @@ if (!function_exists("is_json")) {
 if (!function_exists("lang_in_text")) {
 
     /**
+     * Applies special triggers of language variables.
+     *
      * @param $string
      * @return bool|mixed
      */
@@ -40,7 +44,10 @@ if (!function_exists("lang_in_text")) {
 }
 
 if (!function_exists('tag_replace')) {
+
     /**
+     * Invested tag replacement on the object values or array.
+     *
      * @param  string|mixed|T  $text
      * @param  array|object  $materials
      * @param  string  $pattern
@@ -62,6 +69,7 @@ if (!function_exists('tag_replace')) {
 }
 
 if (!function_exists('file_lines_get_contents')) {
+
     /**
      * Get data from file by lines
      *
